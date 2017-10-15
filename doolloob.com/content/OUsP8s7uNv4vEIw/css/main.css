@@ -1,0 +1,313 @@
+body {
+    font-family: Josefin Sans;
+
+}
+
+header .menu .last {
+    float: right;
+    margin-left: 60px;
+}
+
+
+header .menu .last {
+   margin-left: 100px;
+}
+
+.top_head {
+    position: relative;
+    font-family: 'Baloo', cursive;
+}
+
+
+.logotype {
+    color: #ec008c;
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.social {
+    position: absolute;
+    top: 52px;
+}
+
+.social li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+.social li a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 52px;
+    background: #ec008c;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+h1, h2 {
+    font-family: Source Serif Pro;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+}
+
+main {
+    font-family: 'Ek Mukta', sans-serif;
+}
+
+.little_social {
+    border-bottom: 1px solid #d8d8d8;
+    border-top: 1px solid #d8d8d8;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+
+
+.author a {
+    color: #ec008c;
+    text-decoration: none;
+}
+
+.little_social {
+    position: relative;
+}
+
+
+
+.little_social_icons {
+    position: absolute;
+    right: 0;
+    top:21px;
+}
+
+
+.little_social_icons li {
+    display: inline-block;
+}
+
+.little_social_icons .face {
+    display: block;
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 34px;
+    background: #4c70ba;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.little_social_icons .twit {
+    display: block;
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 34px;
+    background: #21c2ff;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.little_social_icons .pint {
+    display: block;
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 34px;
+    background: #cb2027;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.tags {
+    color: #707070;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.read {
+    color: #fff;
+    background-color: #ec008c;
+    border-color: #ec008c;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 1px 5px;
+    font-size: 14px;
+}
+
+h3 {
+    padding: 10px 0;
+}
+
+
+.text p {
+    padding: 10px 0;
+}
+
+.footer {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar h1 {
+    font-size: 30px;
+    text-align:left;
+    font-weight: 900;
+}
+
+.sidebar img {
+    width: 100%;
+}
+
+
+.sidebar h2 {
+    font-size: 22px;
+    padding: 10px 0;
+    text-align: left;
+    font-weight: 900;
+}
+
+.sidebar .side_content {
+    border: 1px solid #d8d8d8;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.sidebar .left, .sidebar .right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sidebar .left {
+    padding-right: 5px;
+}
+
+.sidebar .right {
+    width: 47%;
+    text-align: left;
+}
+
+.sidebar .tiz {
+    margin: 10px auto;
+}
+
+.btn {
+    background-color: #ec008c;
+    color: #fff !important;
+    border: 1px solid #ec008c;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1310px) {
+
+    main {
+     padding: 5px;
+        box-sizing: border-box;
+    }
+
+    header .menu .item {
+        margin: 0 4px;
+    }
+
+
+    header .menu .last {
+        display: none;
+    }
+
+
+    .sidebar .left {
+        width: 30%;
+    }
+
+    .sidebar .right {
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .social {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logotype {
+        font-size: 50px;
+    }
+}
+
+.bin-btn{
+	margin: 5px auto;
+    text-align: center;
+}
+.bin-btn__btn{
+      transition: none;
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+	background:-moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
+	background-color:#2dabf9;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.bin-btn__btn:hover {
+  color:#fff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
+	background:-moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
+	background-color:#0688fa;
+}
+
+
+
